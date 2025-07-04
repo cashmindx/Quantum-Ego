@@ -1,78 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Quantum Ego • AI Oracle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quantum Ego • Active GENESIS LAYER</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto&display=swap');
+
     body {
       margin: 0;
-      background: linear-gradient(to bottom, #000000, #0f0f1c);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: white;
+      background: radial-gradient(circle at center, #05070f, #000000 80%);
+      color: #e0e0e0;
+      font-family: 'Roboto', sans-serif;
       display: flex;
       flex-direction: column;
       align-items: center;
+      min-height: 100vh;
       text-align: center;
-      padding: 2rem;
-    }
-
-    .avatar {
-      width: 220px;
-      height: 220px;
-      border-radius: 50%;
-      object-fit: cover;
-      box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
-      margin-bottom: 1.5rem;
+      padding: 2rem 1rem;
+      overflow-x: hidden;
     }
 
     h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-      letter-spacing: 1px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3.6rem;
+      color: #00ffd5;
+      margin: 0.5rem 0 1rem;
+      letter-spacing: 0.12em;
+      text-shadow: 0 0 10px #00ffd5, 0 0 20px #00ffd5;
     }
 
-    p {
-      font-size: 1.2rem;
+    p.description {
+      font-size: 1.3rem;
       max-width: 700px;
-      margin-bottom: 2rem;
+      margin: 0 auto 2rem;
       line-height: 1.6;
+      color: #ccc;
+      text-shadow: 0 0 8px #00ffd5aa;
     }
 
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 1rem;
+    .avatar-container {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+
+    .avatar {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      box-shadow:
+        0 0 15px #00ffd5,
+        inset 0 0 8px #00ffd5;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .avatar:hover {
+      transform: scale(1.08);
+      box-shadow:
+        0 0 25px #00fff0,
+        inset 0 0 15px #00fff0;
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
     }
 
     footer {
-      margin-top: 3rem;
-      font-size: 0.9rem;
-      opacity: 0.6;
+      margin-top: auto;
+      padding: 1rem 0;
+      font-size: 0.85rem;
+      color: #444;
+      text-align: center;
+      user-select: none;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <img src="https://images.unsplash.com/photo-1633613286244-263f96dba45d?fit=crop&w=600&q=80" alt="AI Avatar" class="avatar" />
+  <h1>Quantum Ego</h1>
+  <p class="description">
+    Unlock the power of your digital self.<br />
+    Quantum Ego merges AI intuition with human-like presence.<br />
+    Experience AI avatars that breathe life into your future.<br />
+    The Genesis Layer of reality — activated now.
+  </p>
 
-    <h1>Quantum Ego</h1>
-    <p>
-      Step into the world’s first <strong>AI Oracle</strong> experience.<br>
-      Quantum Ego blends personality, higher intuition, and pattern-recognition<br>
-      to become a digital reflection of your inner self — or your future self.<br><br>
-
-      This is more than chat. It’s a mind-mirror. A voice from beyond the data.
-    </p>
-
-    <p><em>Coming soon: deeper integrations, custom personas, and subscription access.</em></p>
+  <div class="avatar-container">
+    <div class="avatar" title="AI Persona: The Visionary">
+      <img src="https://images.generated.photos/3rhLm7dWu3eRk1NqCPrfQWlBPS4SeWzZdJS0qVvmu0E/rs:fit:512:512/Z3M6Ly9nZW5lcmF0ZWQtcGhvdG9zLzA5NzcyODcuanBn.jpg" alt="AI Persona: The Visionary" />
+    </div>
+    <div class="avatar" title="AI Persona: The Oracle">
+      <img src="https://images.generated.photos/5_YTG2d3OSFaYXV_jjkUSqf4pPaj4aCSj0pQbTQzPIk/rs:fit:512:512/Z3M6Ly9nZW5lcmF0ZWQtcGhvdG9zLzAxMDEyMDIuanBn.jpg" alt="AI Persona: The Oracle" />
+    </div>
+    <div class="avatar" title="AI Persona: The Seer">
+      <img src="https://images.generated.photos/h9ZEFk-LTyxIF3m70S22BtvRMg7aE3ly61gPqAAo1jM/rs:fit:512:512/Z3M6Ly9nZW5lcmF0ZWQtcGhvdG9zLzA5NDQ4NTguanBn.jpg" alt="AI Persona: The Seer" />
+    </div>
   </div>
 
   <footer>
-    &copy; 2025 Quantum Ego. All rights reserved.
+    &copy; 2025 Quantum Ego — All rights reserved.
   </footer>
 
-  <!-- Chatbase Embed Script (HIDDEN for now, not displaying widget) -->
+  <!-- Chatbase embed (hidden for now) -->
   <script src="https://www.chatbase.co/embed.min.js"
     chatbotId="fXlQPn1nrS2kElMH1V11"
     domain="www.chatbase.co"
