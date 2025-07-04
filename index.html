@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Quantum Ego™</title>
-
-  <!-- Modern Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 
   <style>
     body {
       margin: 0;
-      background: linear-gradient(145deg, #000000, #0a0a23, #0f0f2f);
+      background: linear-gradient(to bottom, #0a0a0a, #11142b);
+      background-image: url('https://images.unsplash.com/photo-1614064548237-096f56e7b3f1?auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
       font-family: 'Inter', sans-serif;
-      color: #f0f0f0;
+      color: #f2f2f2;
       text-align: center;
       padding: 40px 20px;
     }
@@ -26,10 +28,10 @@
 
     .subhead {
       font-size: 1.2rem;
-      max-width: 720px;
+      max-width: 750px;
       margin: auto;
-      color: #cccccc;
       margin-bottom: 40px;
+      color: #d0d0d0;
     }
 
     .video-container {
@@ -37,7 +39,7 @@
       margin: 40px auto;
       border-radius: 18px;
       overflow: hidden;
-      box-shadow: 0 0 40px #00e6e6a0;
+      box-shadow: 0 0 30px #00e6e6a0;
     }
 
     iframe {
@@ -46,12 +48,19 @@
       border: none;
     }
 
+    .section-title {
+      font-size: 2rem;
+      color: #00e6e6;
+      font-weight: 600;
+      margin: 50px 0 10px 0;
+    }
+
     .avatar-grid {
       display: flex;
-      justify-content: center;
       flex-wrap: wrap;
+      justify-content: center;
       gap: 25px;
-      margin: 50px auto;
+      margin: 30px auto;
       max-width: 1000px;
     }
 
@@ -61,20 +70,12 @@
       border-radius: 16px;
       object-fit: cover;
       box-shadow: 0 0 15px #00f0ff66;
-      transition: transform 0.3s ease;
+      transition: transform 0.3s;
     }
 
     .avatar:hover {
       transform: scale(1.05);
       box-shadow: 0 0 25px #00ffff;
-    }
-
-    .section-title {
-      font-size: 2rem;
-      color: #00e6e6;
-      margin-top: 60px;
-      margin-bottom: 10px;
-      font-weight: 600;
     }
 
     .packages {
@@ -86,12 +87,12 @@
     }
 
     .package {
-      background-color: #111222;
-      border: 1px solid #2c2c44;
+      background: rgba(0, 0, 0, 0.7);
       border-radius: 18px;
       padding: 25px;
       width: 280px;
-      box-shadow: 0 0 20px #00000080;
+      box-shadow: 0 0 20px #00ffff22;
+      text-align: left;
     }
 
     .package h3 {
@@ -102,6 +103,7 @@
     .package p {
       font-size: 0.95rem;
       color: #ccc;
+      line-height: 1.5em;
     }
 
     .paypal-section {
@@ -111,7 +113,7 @@
     .footer {
       margin-top: 80px;
       font-size: 0.85rem;
-      color: #666;
+      color: #888;
     }
 
     a {
@@ -121,47 +123,56 @@
   </style>
 </head>
 <body>
-
   <h1>Quantum Ego™</h1>
   <div class="subhead">
-    Enter the age of conscious AI. Quantum Ego™ allows you to create and own your own intelligent assistant — powered by futuristic personality design and ultra-adaptive technology. More than a chatbot. It's your Oracle.
+    Step into a new era of personalized intelligence. Quantum Ego™ allows you to design, interact with, and evolve your own human-like AI — for productivity, insight, healing, and growth.
   </div>
 
-  <!-- Video Welcome Avatar -->
+  <!-- Embedded Video Without Branding -->
   <div class="video-container">
     <iframe src="https://www.youtube.com/embed/DJ-AliensTalk?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&showinfo=0" allow="autoplay; encrypted-media"></iframe>
   </div>
 
-  <!-- Avatar Faces -->
-  <div class="section-title">Choose Your AI Face</div>
+  <!-- AI Avatars -->
+  <div class="section-title">Meet Your Quantum Avatars</div>
   <div class="avatar-grid">
-    <img class="avatar" src="https://i.imgur.com/1JqLd3P.jpg" alt="AI Avatar 1">
-    <img class="avatar" src="https://i.imgur.com/ldOHrHz.jpg" alt="AI Avatar 2">
-    <img class="avatar" src="https://i.imgur.com/Vn06A70.jpg" alt="AI Avatar 3">
-    <img class="avatar" src="https://i.imgur.com/z0OeToH.jpg" alt="AI Avatar 4">
+    <img class="avatar" src="https://thispersondoesnotexist.com/image" alt="Avatar 1">
+    <img class="avatar" src="https://thispersondoesnotexist.com/image" alt="Avatar 2">
+    <img class="avatar" src="https://thispersondoesnotexist.com/image" alt="Avatar 3">
+    <img class="avatar" src="https://thispersondoesnotexist.com/image" alt="Avatar 4">
   </div>
 
-  <!-- Packages Section -->
-  <div class="section-title">Packages</div>
+  <!-- Pricing and Packages -->
+  <div class="section-title">Choose Your Access</div>
   <div class="packages">
     <div class="package">
-      <h3>🌑 BASIC ($9)</h3>
-      <p>Access a single custom AI assistant with preset capabilities for chat and productivity.</p>
+      <h3>🌑 BASIC – $9 (One-time)</h3>
+      <p>
+        Includes 1 AI assistant with preset personality and basic conversational tools.
+        <br>• Text-only chat<br>• No memory<br>• No vault access
+      </p>
     </div>
     <div class="package">
-      <h3>🌌 PRO ($29)</h3>
-      <p>Choose your assistant’s look, tone, and function. Includes memory, journaling, and voice interaction.</p>
+      <h3>🌌 PRO – $29/mo</h3>
+      <p>
+        Includes up to 3 AI avatars with voice, memory, productivity & journaling support.<br>
+        • Voice interaction<br>• Mood modes<br>• Productivity coaching
+      </p>
     </div>
     <div class="package">
-      <h3>🚀 ORACLE+ ($99)</h3>
-      <p>Unlock your AI Oracle with multi-skill training, voice chat, private vault, and psychic dialogue mode.</p>
+      <h3>🚀 ORACLE+ – $99/mo</h3>
+      <p>
+        The ultimate AI experience.<br>
+        • Unlimited avatars<br>• Private vault access<br>• Custom memory scripting<br>
+        • Audio + visual responses<br>• Oracle-level intuition training
+      </p>
     </div>
   </div>
 
-  <!-- PayPal Payment -->
+  <!-- PayPal Integration -->
   <div class="paypal-section">
     <h2>Activate Quantum Ego</h2>
-    <p>Select your tier above and contribute any amount to begin.</p>
+    <p>Start your AI journey. Choose any tier and contribute to unlock your experience.</p>
     <div id="paypal-container-9UBET3GUC4AJU"></div>
 
     <script src="https://www.paypal.com/sdk/js?client-id=BAAw9XjJTdFGwSUCa3dkveerg5RU0cD2p0NuUNJHC9hbJAtQCwXqUPvzNfrTE0FgmNVxWVAP3R6wqf6bXE&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
@@ -172,9 +183,9 @@
     </script>
   </div>
 
+  <!-- Footer -->
   <div class="footer">
     Quantum Ego™ by <a href="#">CashMind X</a> | All rights reserved © 2025
   </div>
-
 </body>
 </html>
