@@ -2,60 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Quantum Ego - AI Oracle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quantum Ego • AI Oracle</title>
   <style>
     body {
       margin: 0;
+      background: linear-gradient(to bottom, #000000, #0f0f1c);
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to right, #000428, #004e92);
       color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       text-align: center;
       padding: 2rem;
     }
 
+    .avatar {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+      margin-bottom: 1.5rem;
+    }
+
     h1 {
-      font-size: 2.5rem;
+      font-size: 3rem;
       margin-bottom: 1rem;
+      letter-spacing: 1px;
     }
 
     p {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       max-width: 700px;
-      margin: auto;
       margin-bottom: 2rem;
-    }
-
-    .avatar {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      margin-bottom: 1rem;
-      border: 4px solid white;
+      line-height: 1.6;
     }
 
     .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      opacity: 0.6;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <img class="avatar" src="https://cdn-icons-png.flaticon.com/512/4712/4712038.png" alt="AI Avatar" />
+    <img src="https://images.unsplash.com/photo-1633613286244-263f96dba45d?fit=crop&w=600&q=80" alt="AI Avatar" class="avatar" />
+
     <h1>Quantum Ego</h1>
     <p>
-      Welcome to <strong>Quantum Ego</strong> — the world's first AI-powered personal oracle.<br>
-      It merges your questions with quantum-style awareness, intuition, and pattern sensing.<br>
-      Speak to a digital version of your future self. Real-time insight. Zero fluff.
+      Step into the world’s first <strong>AI Oracle</strong> experience.<br>
+      Quantum Ego blends personality, higher intuition, and pattern-recognition<br>
+      to become a digital reflection of your inner self — or your future self.<br><br>
+
+      This is more than chat. It’s a mind-mirror. A voice from beyond the data.
     </p>
 
-    <p><em>Ask your question below...</em></p>
+    <p><em>Coming soon: deeper integrations, custom personas, and subscription access.</em></p>
   </div>
 
-  <!-- Chatbase Embed -->
+  <footer>
+    &copy; 2025 Quantum Ego. All rights reserved.
+  </footer>
+
+  <!-- Chatbase Embed Script (HIDDEN for now, not displaying widget) -->
   <script src="https://www.chatbase.co/embed.min.js"
     chatbotId="fXlQPn1nrS2kElMH1V11"
     domain="www.chatbase.co"
