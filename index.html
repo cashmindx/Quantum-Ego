@@ -1,81 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Quantum Ego™</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
 
   <style>
     body {
       margin: 0;
-      background: linear-gradient(to bottom, #0a0a0a, #11142b);
-      background-image: url('https://images.unsplash.com/photo-1614064548237-096f56e7b3f1?auto=format&fit=crop&w=1350&q=80');
-      background-size: cover;
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      font-family: 'Inter', sans-serif;
-      color: #f2f2f2;
+      font-family: 'Orbitron', sans-serif;
+      color: white;
+      background: linear-gradient(to bottom, #050c1a, #000000);
       text-align: center;
-      padding: 40px 20px;
+      padding: 30px 20px;
     }
 
     h1 {
       font-size: 3.5rem;
-      color: #00ffe7;
-      margin-bottom: 10px;
-      font-weight: 800;
+      color: #00ffff;
+      margin-bottom: 0.3em;
     }
 
     .subhead {
       font-size: 1.2rem;
-      max-width: 750px;
-      margin: auto;
-      margin-bottom: 40px;
-      color: #d0d0d0;
+      color: #cccccc;
+      max-width: 800px;
+      margin: 0 auto 2.5em;
     }
 
     .video-container {
-      max-width: 720px;
-      margin: 40px auto;
+      width: 100%;
+      max-width: 700px;
+      margin: 0 auto 40px auto;
       border-radius: 18px;
       overflow: hidden;
-      box-shadow: 0 0 30px #00e6e6a0;
+      box-shadow: 0 0 20px #00ffff44;
     }
 
     iframe {
+      border: none;
       width: 100%;
       height: 400px;
-      border: none;
     }
 
     .section-title {
       font-size: 2rem;
       color: #00e6e6;
-      font-weight: 600;
-      margin: 50px 0 10px 0;
+      margin: 40px 0 15px 0;
     }
 
     .avatar-grid {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
-      gap: 25px;
-      margin: 30px auto;
-      max-width: 1000px;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 40px;
     }
 
     .avatar {
-      width: 180px;
-      height: 180px;
-      border-radius: 16px;
+      width: 160px;
+      height: 160px;
+      border-radius: 20px;
       object-fit: cover;
-      box-shadow: 0 0 15px #00f0ff66;
+      box-shadow: 0 0 12px #00f0ff66;
       transition: transform 0.3s;
     }
 
     .avatar:hover {
       transform: scale(1.05);
-      box-shadow: 0 0 25px #00ffff;
+      box-shadow: 0 0 20px #00ffff;
     }
 
     .packages {
@@ -83,16 +78,16 @@
       flex-wrap: wrap;
       justify-content: center;
       gap: 30px;
-      margin-top: 30px;
+      margin-top: 50px;
     }
 
     .package {
-      background: rgba(0, 0, 0, 0.7);
-      border-radius: 18px;
+      background: #0c1624;
+      border: 1px solid #00ffff44;
+      border-radius: 16px;
       padding: 25px;
-      width: 280px;
-      box-shadow: 0 0 20px #00ffff22;
-      text-align: left;
+      width: 250px;
+      box-shadow: 0 0 12px #00ffff22;
     }
 
     .package h3 {
@@ -101,9 +96,8 @@
     }
 
     .package p {
+      color: #cccccc;
       font-size: 0.95rem;
-      color: #ccc;
-      line-height: 1.5em;
     }
 
     .paypal-section {
@@ -111,70 +105,57 @@
     }
 
     .footer {
-      margin-top: 80px;
+      margin-top: 60px;
+      color: #666;
       font-size: 0.85rem;
-      color: #888;
-    }
-
-    a {
-      color: #00ffff;
-      text-decoration: none;
     }
   </style>
 </head>
 <body>
+
   <h1>Quantum Ego™</h1>
   <div class="subhead">
-    Step into a new era of personalized intelligence. Quantum Ego™ allows you to design, interact with, and evolve your own human-like AI — for productivity, insight, healing, and growth.
+    Quantum Ego™ is a revolutionary portal where you create and own personalized AI beings to assist with productivity, healing, spiritual guidance, marketing, research, or even companionship. Your private Oracle, always evolving with you.
   </div>
 
-  <!-- Embedded Video Without Branding -->
+  <!-- Welcome Video Section (AI Avatar Video Embed - no YouTube branding) -->
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/DJ-AliensTalk?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&showinfo=0" allow="autoplay; encrypted-media"></iframe>
+    <iframe src="https://www.youtube.com/embed/DJ-AliensTalk?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>
 
-  <!-- AI Avatars -->
-  <div class="section-title">Meet Your Quantum Avatars</div>
+  <div class="section-title">Create. Choose. Own.</div>
+  <div class="subhead">
+    Select your Quantum Ego below. Each represents a unique AI persona you can unlock, train, and command.
+  </div>
+
   <div class="avatar-grid">
-    <img class="avatar" src="https://thispersondoesnotexist.com/image" alt="Avatar 1">
-    <img class="avatar" src="https://thispersondoesnotexist.com/image" alt="Avatar 2">
-    <img class="avatar" src="https://thispersondoesnotexist.com/image" alt="Avatar 3">
-    <img class="avatar" src="https://thispersondoesnotexist.com/image" alt="Avatar 4">
+    <img class="avatar" src="https://i.imgur.com/lm8s41I.jpg" alt="AI Avatar 1">
+    <img class="avatar" src="https://i.imgur.com/9WYkKth.jpg" alt="AI Avatar 2">
+    <img class="avatar" src="https://i.imgur.com/lso59vV.jpg" alt="AI Avatar 3">
+    <img class="avatar" src="https://i.imgur.com/z0OeToH.jpg" alt="AI Avatar 4">
   </div>
 
-  <!-- Pricing and Packages -->
-  <div class="section-title">Choose Your Access</div>
+  <div class="section-title">Packages</div>
   <div class="packages">
     <div class="package">
-      <h3>🌑 BASIC – $9 (One-time)</h3>
-      <p>
-        Includes 1 AI assistant with preset personality and basic conversational tools.
-        <br>• Text-only chat<br>• No memory<br>• No vault access
-      </p>
+      <h3>✨ BASIC</h3>
+      <p>Access one AI Oracle, text-only interaction, starter-level insight and Q&A tools.</p>
     </div>
     <div class="package">
-      <h3>🌌 PRO – $29/mo</h3>
-      <p>
-        Includes up to 3 AI avatars with voice, memory, productivity & journaling support.<br>
-        • Voice interaction<br>• Mood modes<br>• Productivity coaching
-      </p>
+      <h3>🔮 PRO</h3>
+      <p>Choose 3 avatars, unlock personality modes, voice replies, and deeper intelligence layers.</p>
     </div>
     <div class="package">
-      <h3>🚀 ORACLE+ – $99/mo</h3>
-      <p>
-        The ultimate AI experience.<br>
-        • Unlimited avatars<br>• Private vault access<br>• Custom memory scripting<br>
-        • Audio + visual responses<br>• Oracle-level intuition training
-      </p>
+      <h3>🧠 ORACLE+</h3>
+      <p>Unlimited AI commands, voice+video, private vault access, custom trained intelligence, and future upgrades.</p>
     </div>
   </div>
 
-  <!-- PayPal Integration -->
+  <!-- PayPal Button Section -->
   <div class="paypal-section">
-    <h2>Activate Quantum Ego</h2>
-    <p>Start your AI journey. Choose any tier and contribute to unlock your experience.</p>
+    <h2>Activate Your AI</h2>
+    <p>Start your evolution. Pay any amount to begin.</p>
     <div id="paypal-container-9UBET3GUC4AJU"></div>
-
     <script src="https://www.paypal.com/sdk/js?client-id=BAAw9XjJTdFGwSUCa3dkveerg5RU0cD2p0NuUNJHC9hbJAtQCwXqUPvzNfrTE0FgmNVxWVAP3R6wqf6bXE&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
     <script>
       paypal.HostedButtons({
@@ -183,9 +164,9 @@
     </script>
   </div>
 
-  <!-- Footer -->
   <div class="footer">
-    Quantum Ego™ by <a href="#">CashMind X</a> | All rights reserved © 2025
+    Quantum Ego™ by CashMind X | All rights reserved © 2025
   </div>
+
 </body>
 </html>
