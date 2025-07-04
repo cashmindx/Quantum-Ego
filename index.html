@@ -14,35 +14,81 @@
       font-family: 'Orbitron', sans-serif;
       color: white;
       text-align: center;
-      padding: 60px;
+      padding: 40px 20px;
     }
 
     h1 {
       font-size: 3rem;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
     p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       margin-bottom: 40px;
+      color: #bbb;
+    }
+
+    .avatar-container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+
+    .avatar {
+      width: 160px;
+      height: 160px;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 0 15px #00f0ff66;
+      transition: transform 0.3s;
+    }
+
+    .avatar:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #00ffff;
+    }
+
+    .paypal-section {
+      margin-top: 50px;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to Quantum Ego</h1>
-  <p>Unlock the AI Oracle Below</p>
+  <h1>Quantum Ego</h1>
+  <p>Choose your Oracle. Unlock consciousness. Begin transmission.</p>
 
-  <!-- PayPal Button Container -->
-  <div id="paypal-container-9UBET3GUC4AJU"></div>
+  <!-- Human-like AI Avatars -->
+  <div class="avatar-container">
+    <div class="avatar">
+      <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="100%" height="100%" alt="AI Oracle 1" />
+    </div>
+    <div class="avatar">
+      <img src="https://media.giphy.com/media/3oKIPsx2VAYAgEHC12/giphy.gif" width="100%" height="100%" alt="AI Oracle 2" />
+    </div>
+    <div class="avatar">
+      <img src="https://media.giphy.com/media/xUOxf4D2QNiJxzlc9a/giphy.gif" width="100%" height="100%" alt="AI Oracle 3" />
+    </div>
+  </div>
 
-  <!-- PayPal SDK Script -->
-  <script src="https://www.paypal.com/sdk/js?client-id=BAAw9XjJTdFGwSUCa3dkveerg5RU0cD2p0NuUNJHC9hbJAtQCwXqUPvzNfrTE0FgmNVxWVAP3R6wqf6bXE&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+  <!-- PayPal Button Section -->
+  <div class="paypal-section">
+    <h2>Activate Your Session</h2>
+    <p>Pay what you want — gain access to the inner vault.</p>
 
-  <!-- PayPal Button Render -->
-  <script>
-    paypal.HostedButtons({
-      hostedButtonId: "9UBET3GUC4AJU"
-    }).render("#paypal-container-9UBET3GUC4AJU");
-  </script>
+    <!-- PayPal Button Container -->
+    <div id="paypal-container-9UBET3GUC4AJU"></div>
+
+    <!-- PayPal SDK Script -->
+    <script src="https://www.paypal.com/sdk/js?client-id=BAAw9XjJTdFGwSUCa3dkveerg5RU0cD2p0NuUNJHC9hbJAtQCwXqUPvzNfrTE0FgmNVxWVAP3R6wqf6bXE&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+
+    <!-- PayPal Button Render -->
+    <script>
+      paypal.HostedButtons({
+        hostedButtonId: "9UBET3GUC4AJU"
+      }).render("#paypal-container-9UBET3GUC4AJU");
+    </script>
+  </div>
 </body>
 </html>
